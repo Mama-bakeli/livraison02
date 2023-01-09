@@ -1,0 +1,331 @@
+            body {
+                font-family: century gothic;
+            }
+            
+            nav li {
+                display: inline-flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                padding: 15px;
+            }
+            
+            nav ul {
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                justify-content: center;
+                margin: 15px;
+                /* background-color: red; */
+                height: 150px;
+            }
+            
+            .first img {
+                width: 150px;
+                height: 100px;
+                border-radius: 25px;
+            }
+            
+            .first {
+                background-color: red;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 15px;
+                background-image: url('img/bg.png');
+                background-size: cover;
+                height: 400px;
+            }
+            
+            .lorem {
+                text-align: center;
+                width: 420px;
+                font-size: small;
+                color: white;
+            }
+            
+            .formation {
+                background-color: #605555;
+                padding: 15px;
+                margin: 15px;
+                color: white;
+            }
+            
+            .second {
+                margin: 100px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+            }
+            
+            .s-second {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .cercle {
+                width: 150px;
+                height: 150px;
+                border: 2px solid #369e8a;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .bakeli {
+                background-color: rgb(235, 235, 235);
+                height: 200px;
+                padding: 50px;
+            }
+            
+            .bakeli h1 {
+                text-align: center;
+                /* padding-top: 100px; */
+                font-size: 40px;
+            }
+            
+            .bakeli ul {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                justify-content: space-around;
+                padding: 50px;
+            }
+            
+            .ligne1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+            }
+            
+            .ligne2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+                background-color: yellow;
+            }
+            
+            .wordpress {
+                background-color: rgb(131, 203, 207);
+                width: 25%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .htmlcss {
+                background-color: rgb(103, 180, 204);
+                width: 25%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .canva {
+                background-color: rgb(113, 121, 103);
+                width: 25%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .js5 {
+                background-color: rgb(100, 154, 151);
+                width: 25%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .java {
+                background-color: #827263;
+                width: 25%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .inkscape {
+                background-color: #35a0ae;
+                width: 25%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .Ae {
+                background-color: #237792;
+                width: 25%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .python {
+                background-color: #a5c0ad;
+                width: 25%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            footer h2,
+            h3 {
+                text-align: center;
+            }
+            
+            .bakeli2 {
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 100px;
+            }
+            
+            .bakeli3 {
+                height: 450px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .bakeli3 p {
+                width: 35%;
+            }
+            
+            .team {
+                height: 700px;
+                background-color: #a5c0ad;
+                color: white;
+                text-align: center;
+                font-weight: normal;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .team p {
+                width: 35%;
+                font-size: small;
+            }
+            
+            table {
+                padding-top: 50px;
+                width: 90%;
+                height: 40%;
+            }
+            
+            input {
+                width: 400px;
+                background-color: #d6d6d6;
+                border-radius: 2%;
+                border: none;
+            }
+            
+            .bloc {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                height: 350px;
+                width: 100%;
+                margin-top: 100px;
+            }
+            
+            .element {
+                width: 22%;
+                height: 100%;
+                transition: 0.5s;
+            }
+            
+            .img {
+                height: 100%;
+            }
+            
+            .element:hover {
+                transform: scale(1.1);
+            }
+            
+            .couleur1 {
+                height: 75%;
+                background-color: #827474;
+            }
+            
+            .p {
+                width: 100%;
+                height: 25%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                color: black;
+            }
+            
+            .couleur2 {
+                height: 75%;
+                background-color: #d38989;
+            }
+            
+            .couleur3 {
+                height: 75%;
+                background-color: #b3d3c4;
+            }
+            
+            .couleur4 {
+                height: 75%;
+                background-color: #d4bba1;
+            }
+            
+            .barre {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .bakeli2 img {
+                width: 150px;
+                height: 100px;
+                border-radius: 25px;
+            }
+            
+            .flex {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 424px;
+            }
+            
+            .aligner {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            .flexbox {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
